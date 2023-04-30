@@ -1,0 +1,49 @@
+
+html{
+    background-color: #83c56f;
+}
+
+.score{
+    position: absolute;
+    bottom: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.time{
+    position: absolute;
+    bottom: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.grid{
+    width: 1260px;
+    height: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left:250px;
+}
+
+.square{
+    height: 250px;
+    width: 350px;
+    /* border: solid; */
+    /* border-color: black 1px; */
+}
+
+#image{
+    position: absolute;
+    right: 50px;
+    height: auto;
+    width: auto;
+    
+}
+
+.mole{
+    background-image: url(mole.png);
+    background-size: cover;
+
+}
